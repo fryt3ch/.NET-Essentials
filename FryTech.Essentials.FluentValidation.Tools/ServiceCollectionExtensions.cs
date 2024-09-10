@@ -6,9 +6,14 @@ namespace FryTech.Essentials.FluentValidation.Tools;
 
 public static class ServiceCollectionExtensions
 {
+    /// <summary>
+    /// Adds validators from EntryAssembly when is not null or from CallingAssembly otherwise
+    /// </summary>
+    /// <param name="services"></param>
+    /// <returns></returns>
     public static IServiceCollection AddFluentValidators(this IServiceCollection services)
     {
-        return AddFluentValidators(services, Assembly.GetExecutingAssembly());
+        return AddFluentValidators(services, Assembly.GetEntryAssembly() ?? Assembly.GetCallingAssembly());
     }
 
     public static IServiceCollection AddFluentValidators(this IServiceCollection services, params Assembly[] assemblies)
