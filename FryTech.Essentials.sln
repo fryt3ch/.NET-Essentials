@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FryTech.Essentials.Results", "FryTech.Essentials.Results\FryTech.Essentials.Results.csproj", "{1317CAC8-A392-49B8-8CD5-7F1E90AEB9E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FryTech.Essentials.FluentValidation.OptionsValidation", "FryTech.Essentials.FluentValidation.OptionsValidation\FryTech.Essentials.FluentValidation.OptionsValidation.csproj", "{7D79AC63-0693-465E-9B7F-5219F13A793B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FryTech.Essentials.FluentValidation.Tools", "FryTech.Essentials.FluentValidation.Tools\FryTech.Essentials.FluentValidation.Tools.csproj", "{7B84C842-18EA-4E6F-999E-E3B9453AB918}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{1317CAC8-A392-49B8-8CD5-7F1E90AEB9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1317CAC8-A392-49B8-8CD5-7F1E90AEB9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1317CAC8-A392-49B8-8CD5-7F1E90AEB9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D79AC63-0693-465E-9B7F-5219F13A793B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D79AC63-0693-465E-9B7F-5219F13A793B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D79AC63-0693-465E-9B7F-5219F13A793B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D79AC63-0693-465E-9B7F-5219F13A793B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B84C842-18EA-4E6F-999E-E3B9453AB918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B84C842-18EA-4E6F-999E-E3B9453AB918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B84C842-18EA-4E6F-999E-E3B9453AB918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B84C842-18EA-4E6F-999E-E3B9453AB918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
